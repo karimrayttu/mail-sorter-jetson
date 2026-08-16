@@ -1,0 +1,14 @@
+# Annotation scaffold: 25 hand-labelled envelope photos, one class
+# (destination_address). This is the CVAT job shown in docs/annotation_cvat.png.
+#
+# It does NOT correspond to the committed best-weights.pt. Those weights are a
+# two-class model, {0: receiver, 1: sender}; run
+#   python -c "from ultralytics import YOLO; print(YOLO('best-weights.pt').model.names)"
+# to see it. The training set and the run that produced best-weights.pt are not
+# in this repository, so the weights cannot be reproduced from what is here.
+# Image paths in train.txt are repo-relative; drop the JPGs under
+# data/images/train/. The JPGs themselves are not committed.
+names:
+  0: destination_address
+path: .
+train: train.txt

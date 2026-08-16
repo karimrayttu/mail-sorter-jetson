@@ -1,0 +1,11 @@
+opencv-python
+numpy
+Pillow
+ultralytics
+easyocr
+transformers
+torch
+rapidfuzz
+gpiozero
+smbus2
+# Jetson.GPIO ships with JetPack on the AGX Orin; it is not a pip package.

@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Build output
+build/
+dist/
+
+# Simulator and toolchain output. Regenerate with the tools in tools/.
+*.raw
+*.op.raw
+*.log
+*.net.raw
+
+# Environment / secrets. Instrument addresses belong here, not in source.
+.env
+*.local
+*.pem
+*.key
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

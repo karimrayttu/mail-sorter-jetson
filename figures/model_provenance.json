@@ -1,0 +1,41 @@
+{
+  "architecture": "yolo11s.yaml",
+  "parameters": 9428566,
+  "classes": {
+    "0": "receiver",
+    "1": "sender"
+  },
+  "trained": "2025-11-05T16:27:29.609204",
+  "ultralytics": "8.3.171",
+  "kept_epoch": 56,
+  "stopped_epoch": 146,
+  "minutes": 39.8,
+  "final_metrics": {
+    "metrics/precision(B)": 0.98735,
+    "metrics/recall(B)": 1.0,
+    "metrics/mAP50(B)": 0.995,
+    "metrics/mAP50-95(B)": 0.63367
+  },
+  "args": {
+    "model": "yolo11s.pt",
+    "data": "/train/cache/dataset/data.yaml",
+    "epochs": 300,
+    "patience": 90,
+    "batch": 10,
+    "imgsz": 1024,
+    "optimizer": "auto",
+    "lr0": 0.01,
+    "lrf": 0.01,
+    "momentum": 0.937,
+    "weight_decay": 0.0005,
+    "warmup_epochs": 3.0,
+    "seed": 0,
+    "pretrained": true,
+    "mosaic": 1.0,
+    "fliplr": 0.5,
+    "flipud": 0.0,
+    "degrees": 0.0,
+    "scale": 0.5,
+    "auto_augment": "randaugment"
+  }
+}

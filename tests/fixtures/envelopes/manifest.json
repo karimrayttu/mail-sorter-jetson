@@ -1,0 +1,102 @@
+[
+  {
+    "path": "tests/fixtures/envelopes/clean_00_Houston.jpg",
+    "condition": "clean",
+    "truth_city": "Houston"
+  },
+  {
+    "path": "tests/fixtures/envelopes/clean_01_SanAntonio.jpg",
+    "condition": "clean",
+    "truth_city": "San Antonio"
+  },
+  {
+    "path": "tests/fixtures/envelopes/clean_02_Dallas.jpg",
+    "condition": "clean",
+    "truth_city": "Dallas"
+  },
+  {
+    "path": "tests/fixtures/envelopes/clean_03_Austin.jpg",
+    "condition": "clean",
+    "truth_city": "Austin"
+  },
+  {
+    "path": "tests/fixtures/envelopes/slight_blur_00_Houston.jpg",
+    "condition": "slight_blur",
+    "truth_city": "Houston"
+  },
+  {
+    "path": "tests/fixtures/envelopes/slight_blur_01_SanAntonio.jpg",
+    "condition": "slight_blur",
+    "truth_city": "San Antonio"
+  },
+  {
+    "path": "tests/fixtures/envelopes/slight_blur_02_Dallas.jpg",
+    "condition": "slight_blur",
+    "truth_city": "Dallas"
+  },
+  {
+    "path": "tests/fixtures/envelopes/slight_blur_03_Austin.jpg",
+    "condition": "slight_blur",
+    "truth_city": "Austin"
+  },
+  {
+    "path": "tests/fixtures/envelopes/motion_00_Houston.jpg",
+    "condition": "motion",
+    "truth_city": "Houston"
+  },
+  {
+    "path": "tests/fixtures/envelopes/motion_01_SanAntonio.jpg",
+    "condition": "motion",
+    "truth_city": "San Antonio"
+  },
+  {
+    "path": "tests/fixtures/envelopes/motion_02_Dallas.jpg",
+    "condition": "motion",
+    "truth_city": "Dallas"
+  },
+  {
+    "path": "tests/fixtures/envelopes/motion_03_Austin.jpg",
+    "condition": "motion",
+    "truth_city": "Austin"
+  },
+  {
+    "path": "tests/fixtures/envelopes/dim_00_Houston.jpg",
+    "condition": "dim",
+    "truth_city": "Houston"
+  },
+  {
+    "path": "tests/fixtures/envelopes/dim_01_SanAntonio.jpg",
+    "condition": "dim",
+    "truth_city": "San Antonio"
+  },
+  {
+    "path": "tests/fixtures/envelopes/dim_02_Dallas.jpg",
+    "condition": "dim",
+    "truth_city": "Dallas"
+  },
+  {
+    "path": "tests/fixtures/envelopes/dim_03_Austin.jpg",
+    "condition": "dim",
+    "truth_city": "Austin"
+  },
+  {
+    "path": "tests/fixtures/envelopes/bad_00_Houston.jpg",
+    "condition": "bad",
+    "truth_city": "Houston"
+  },
+  {
+    "path": "tests/fixtures/envelopes/bad_01_SanAntonio.jpg",
+    "condition": "bad",
+    "truth_city": "San Antonio"
+  },
+  {
+    "path": "tests/fixtures/envelopes/bad_02_Dallas.jpg",
+    "condition": "bad",
+    "truth_city": "Dallas"
+  },
+  {
+    "path": "tests/fixtures/envelopes/bad_03_Austin.jpg",
+    "condition": "bad",
+    "truth_city": "Austin"
+  }
+]
